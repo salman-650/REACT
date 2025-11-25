@@ -1,9 +1,7 @@
 import React from 'react'
-import './welcome.css'
 
-const Welcome = () => {
-
-    const name = "Hasna";
+const Basic = () => {
+    let name = "hasna";
   return (
     <div>
       <h1>Hello, {name}</h1>
@@ -11,4 +9,4 @@ const Welcome = () => {
   )
 }
 
-export default Welcome
+export default Basic

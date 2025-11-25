@@ -2,13 +2,12 @@ import React from 'react'
 
 const Calling_function = () => {
 
-   function getGreeting(name){
-        return `Hello, ${name}`;
-    }
-
-    function Greeting(){
-        return <h2>{getGreeting("firnas")}</h2>;
-    }
+  function getGreeting(name){
+    return `hello ${name}`;
+  }
+  function Greeting(){
+    return <h2>{getGreeting("Hasna")}</h2>
+  }
   return (
     <div>
       <Greeting/>
